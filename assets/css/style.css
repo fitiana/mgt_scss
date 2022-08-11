@@ -1,0 +1,76 @@
+/*============================
+
+  
+=============================
+
+    CSS INDEX
+    ===================
+    
+/*=============================
+ Theme default CSS
+=============================*/
+
+body {
+  font-family: 'JetBrains Mono';
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #68666C;
+  font-style: normal; }
+
+img,
+.img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }
+
+a,
+button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s; }
+
+a:focus,
+.btn:focus,
+.button:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none; }
+
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  color: #0054FF;
+  text-decoration: none; }
+
+a,
+button {
+  color: #0054FF;
+  outline: medium none;
+  text-decoration: none; }
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+
