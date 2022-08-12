@@ -2,10 +2,30 @@
 /* Header
 /*----------------------------------------*/
 .tp-header-menu-area {
-	position: fixed;
-	top: 0px;
-	
+    position: fixed;
+    top: 0px;
+
 }
+
 .header-content {
     display: flex;
+}
+
+.menu_nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.navbar_wrap {
+    display: flex;
+    flex-grow: 1;
+
+    & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
