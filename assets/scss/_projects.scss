@@ -4,8 +4,14 @@
 .section-projects {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 30px;
     
 }
-.index_projects_view {
+.project-box {
     
+}
+
+.progress-project {
+    background-color: $primary-color;
 }

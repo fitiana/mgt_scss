@@ -148,4 +148,10 @@ li {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.progress-project {
+  background-color: #e75d5d;
 }
