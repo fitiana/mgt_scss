@@ -27,7 +27,9 @@ jQuery(function($) {
     });
 
   
+    $('#banner-hero').parallax("center", 0.3);
 
+    
     // Preloader
     $(window).on('load', function(e) {
         $('.preloader-main')
