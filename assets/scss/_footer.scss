@@ -5,3 +5,13 @@
 .footer_main {
     background-color: $dark-background-default;
 }
+
+.footer-module {
+    .image-wrapper {
+        max-width: 120px;
+        margin-right: 1rem;
+    }
+}
+.single-module {
+    display: flex;
+}

@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
-  color: #68666C;
+  color: #ffffff;
   font-style: normal;
 }
 
@@ -110,6 +110,17 @@ li {
   background-color: #031f31;
 }
 
+.footer-module .image-wrapper {
+  max-width: 120px;
+  margin-right: 1rem;
+}
+
+.single-module {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /*----------------------------------------*/
 /*  Footer
 /*----------------------------------------*/
@@ -137,6 +148,19 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
+}
+
+/*----------------------------------------*/
+/*   video CSS
+/*----------------------------------------*/
+.media-home-page {
+  width: 70%;
+  margin: 50px auto;
+  position: relative;
+}
+
+.video_youtube iframe {
+  width: 100%;
 }
 
 /*====================  
