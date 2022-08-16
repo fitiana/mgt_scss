@@ -4,12 +4,16 @@
 .section-projects {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 30px;
     
 }
 .project-box {
     
+}
+
+.project-name {
+    color: $white;
 }
 
 .progress-project {

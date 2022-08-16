@@ -5,6 +5,7 @@ body {
   line-height: 1.75;
   color: #ffffff;
   font-style: normal;
+  background-color: #031f31;
 }
 
 a:focus,
@@ -29,6 +30,7 @@ li {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 9;
   background-color: #031f31;
 }
 
@@ -115,6 +117,16 @@ li {
   margin-right: 1rem;
 }
 
+.footer-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-social a {
+  margin-right: 20px;
+}
+
 .single-module {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -156,10 +168,20 @@ li {
 .media-home-page {
   width: 70%;
   margin: 50px auto;
+}
+
+.responsive-video {
+  overflow: hidden;
+  padding-bottom: 56.25%;
   position: relative;
+  height: 0;
 }
 
 .video_youtube iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
   width: 100%;
 }
 
@@ -172,8 +194,12 @@ li {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 30px;
+}
+
+.project-name {
+  color: #ffffff;
 }
 
 .progress-project {
