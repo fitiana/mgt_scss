@@ -27,7 +27,13 @@
 }
 
 .footer-copyright {
+    background-color:  #f2eeed;
+    padding: 22px;
     p {
         font-size: 12px;
+        color: $heading-text-color;
+        text-align: center;
+        margin-bottom: 0;
+        
     }
 }

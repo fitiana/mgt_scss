@@ -6,35 +6,52 @@
     flex-wrap: wrap;
     padding-top: 20px;
     padding-bottom: 30px;
-    
+
 }
+
 .project-item {
-    
+    display: block;
 }
 
 .project-name {
-    color: $white;
+    a {
+        color: $heading-text-color;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
 }
 
-.progress-project {
-    background-color: $primary-color;
-}
 
 .statistics-list {
     display: flex;
     padding-left: 0;
     text-align: center;
     justify-content: space-between;
-    
+
     p {
         color: $primary-color;
         font-size: 12px;
+        line-height: 1.1em;
+
         span {
             display: block;
         }
-        
+
     }
+
     i {
         color: $primary-color;
     }
+}
+
+.progress-value {
+    font-size: 12px;
+}
+
+.progress-project {
+    background-color: $primary-color;
+    height: 22px;
 }

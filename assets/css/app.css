@@ -132,8 +132,16 @@ li {
   display: flex;
 }
 
+.footer-copyright {
+  background-color: #f2eeed;
+  padding: 22px;
+}
+
 .footer-copyright p {
   font-size: 12px;
+  color: #2a3d68;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 /*----------------------------------------*/
@@ -208,12 +216,16 @@ li {
   padding-bottom: 30px;
 }
 
-.project-name {
-  color: #ffffff;
+.project-item {
+  display: block;
 }
 
-.progress-project {
-  background-color: #dd1738;
+.project-name a {
+  color: #2a3d68;
+}
+
+.project-name a:hover {
+  text-decoration: underline;
 }
 
 .statistics-list {
@@ -230,6 +242,7 @@ li {
 .statistics-list p {
   color: #dd1738;
   font-size: 12px;
+  line-height: 1.1em;
 }
 
 .statistics-list p span {
@@ -238,4 +251,13 @@ li {
 
 .statistics-list i {
   color: #dd1738;
+}
+
+.progress-value {
+  font-size: 12px;
+}
+
+.progress-project {
+  background-color: #dd1738;
+  height: 22px;
 }
