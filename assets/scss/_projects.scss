@@ -19,3 +19,22 @@
 .progress-project {
     background-color: $primary-color;
 }
+
+.statistics-list {
+    display: flex;
+    padding-left: 0;
+    text-align: center;
+    justify-content: space-between;
+    
+    p {
+        color: $primary-color;
+        font-size: 12px;
+        span {
+            display: block;
+        }
+        
+    }
+    i {
+        color: $primary-color;
+    }
+}

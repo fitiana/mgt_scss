@@ -5,7 +5,6 @@ body {
   line-height: 1.75;
   color: #ffffff;
   font-style: normal;
-  background-color: #031f31;
 }
 
 a:focus,
@@ -133,6 +132,10 @@ li {
   display: flex;
 }
 
+.footer-copyright p {
+  font-size: 12px;
+}
+
 /*----------------------------------------*/
 /*  Footer
 /*----------------------------------------*/
@@ -160,6 +163,13 @@ li {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
+}
+
+.banner_heading {
+  font-size: 45px;
+  font-family: "Fjalla One";
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  text-align: center;
 }
 
 /*----------------------------------------*/
@@ -203,5 +213,29 @@ li {
 }
 
 .progress-project {
-  background-color: #e75d5d;
+  background-color: #dd1738;
+}
+
+.statistics-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.statistics-list p {
+  color: #dd1738;
+  font-size: 12px;
+}
+
+.statistics-list p span {
+  display: block;
+}
+
+.statistics-list i {
+  color: #dd1738;
 }
