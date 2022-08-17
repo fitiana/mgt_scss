@@ -1,7 +1,7 @@
 body {
-  font-family: "JetBrains Mono";
+  font-family: "JetBrains Mono", monospace;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.75;
   color: #ffffff;
   font-style: normal;
@@ -16,8 +16,18 @@ a:focus,
           box-shadow: none;
 }
 
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 li {
   list-style: none;
+}
+
+.text_bold {
+  font-weight: 700;
 }
 
 /*----------------------------------------*/
@@ -30,7 +40,7 @@ li {
   left: 0;
   right: 0;
   z-index: 9;
-  background-color: #031f31;
+  background-color: #2a3d68;
 }
 
 .menu_nav {
@@ -88,8 +98,7 @@ li {
 
 .navbar_wrap ul li a {
   font-size: 14px;
-  font-weight: 500;
-  text-transform: uppercase;
+  font-weight: normal;
   padding: 25px 15px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -101,14 +110,49 @@ li {
 }
 
 .navbar_wrap ul li a:hover {
-  background-color: #3333cc;
+  background-color: #233256;
+}
+
+.nav-auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-auth ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 0;
+  margin-bottom: 0;
+}
+
+.nav-auth ul li {
+  display: block;
+  position: relative;
+}
+
+.nav-auth ul li a {
+  color: #ffffff;
+  padding: 15px 8px;
+  font-size: 14px;
+}
+
+.nav-auth ul li a:hover {
+  background-color: #233256;
 }
 
 /*----------------------------------------*/
 /*  Footer
 /*----------------------------------------*/
 .footer_main {
-  background-color: #031f31;
+  background-color: #2a3d68;
 }
 
 .footer-module .image-wrapper {
@@ -153,7 +197,7 @@ li {
 
 .banner-main {
   background-image: url(../img/ban.jpg);
-  background-color: #031f31;
+  background-color: #2a3d68;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -175,7 +219,7 @@ li {
 
 .banner_heading {
   font-size: 45px;
-  font-family: "Fjalla One";
+  font-family: "Fjalla One", sans-serif;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
   text-align: center;
 }
@@ -201,6 +245,28 @@ li {
   top: 0;
   height: 100%;
   width: 100%;
+}
+
+.mgt-section {
+  background-color: #e6dddb;
+}
+
+.mgt-section .section-wrapper p {
+  color: #2a3d68;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.mgt-section .section-wrapper .block-content {
+  text-align: center;
+}
+
+.mgt-section .section-wrapper .block-content .text-second {
+  color: #dd1738;
+}
+
+.photos-col img {
+  height: 120px;
 }
 
 /*====================  

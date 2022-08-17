@@ -1,0 +1,29 @@
+// section Style
+
+.mgt-section {
+    background-color:  #e6dddb;
+    
+    .section-wrapper {
+        
+        p {
+            color: $heading-text-color;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+        
+        .block-content {
+            text-align: center;
+            
+            .text-second {
+                color: $color-red;
+            }
+        
+        }
+    }
+}
+
+.photos-col {
+    img {
+        height: 120px;
+    }
+}

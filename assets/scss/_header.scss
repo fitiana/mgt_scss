@@ -17,6 +17,7 @@
     width: 98%;
     margin: 0 auto;
 }
+
 .header-content {
     display: flex;
 }
@@ -24,6 +25,7 @@
 .header-logo-img {
     width: 108px;
 }
+
 .menu_nav {
     display: flex;
     flex-wrap: wrap;
@@ -47,19 +49,50 @@
 
             & a {
                 font-size: 14px;
-                font-weight: 500;
-                text-transform: uppercase;
+                font-weight: normal;
                 padding: 25px 15px;
                 display: inline-flex;
                 line-height: 1;
                 position: relative;
                 z-index: 1;
                 color: $white;
-                
+
                 &:hover {
-                    background-color: $secondary-color;
+                    background-color: $background-hover;
                 }
             }
         }
+    }
+}
+
+.nav-auth {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        display: flex;
+        padding-right: 0;
+        margin-bottom: 0;
+
+
+        li {
+
+            display: block;
+            position: relative;
+
+            a {
+                color: $white;
+                padding: 15px 8px;
+                font-size: 14px;
+
+                &:hover {
+                    background-color: $background-hover;
+                }
+
+            }
+        }
+
     }
 }

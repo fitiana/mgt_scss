@@ -1,20 +1,23 @@
 // Variables
 
 // Font Family
-$font-family-heading: 'Fjalla One';
-$font-family-body: 'JetBrains Mono';
+$font-family-heading: 'Fjalla One', sans-serif;
+$font-family-body: 'JetBrains Mono', monospace;
 
 
 $heading-text-color:#2a3d68;
 $body-text-color: #68666C;
-$dark-background-default: #031f31; 
 
+$dark-background-default: #2a3d68; 
+$background-hover:#233256;
 
 // Theme Colors ---------------
 $primary-color: #dd1738;
 $secondary-color: #3333cc;
 
 
+
 // Other color
 $white: #ffffff;
+$color-red: #dd1738;
 
