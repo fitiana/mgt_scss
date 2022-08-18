@@ -30,6 +30,11 @@ li {
   font-weight: 700;
 }
 
+.container-80 {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
 /*----------------------------------------*/
 /* Header
 /*----------------------------------------*/
@@ -265,6 +270,7 @@ li {
 
 .mgt-section .section-wrapper .block-content {
   text-align: center;
+  padding: 20px 5px 15px 5px;
 }
 
 .mgt-section .section-wrapper .block-content .text-second {
@@ -302,6 +308,10 @@ li {
 
 .custom-section-right .text-second {
   color: #2a3d68;
+}
+
+.border-right-white {
+  border-right: 2px solid #ffffff;
 }
 
 .photos-col img {
@@ -392,14 +402,16 @@ li {
   color: #dd1738;
 }
 
-.progress-value {
+.progress_bar {
   font-size: 12px;
   text-align: center;
+  height: 22px;
   color: #ffffff;
+  background-color: #dd1738;
 }
 
 .progress-project {
-  background-color: #dd1738;
+  background-color: #f2eeed;
   height: 22px;
 }
 

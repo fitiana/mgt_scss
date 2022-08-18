@@ -55,14 +55,16 @@
     }
 }
 
-.progress-value {
+.progress_bar {
     font-size: 12px;
     text-align: center;
+    height: 22px;
     color: $white;
+    background-color: $primary-color;
 }
 
 .progress-project {
-    background-color: $primary-color;
+    background-color: $color-gris-1;
     height: 22px;
 }
 
