@@ -1,7 +1,7 @@
 body {
   font-family: "JetBrains Mono", monospace;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.75;
   color: #2a3d68;
   font-style: normal;
@@ -161,14 +161,15 @@ li {
   background-color: #f2eeed;
 }
 
-.footer-middle {
-  padding: 30px;
+.footer-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.footer-middle .image-wrapper {
-  max-width: 120px;
-  margin-right: 1rem;
-  margin-left: auto;
+.footer-logo img {
+  width: 160px;
 }
 
 .footer-social {
@@ -179,6 +180,39 @@ li {
 
 .footer-social a {
   margin-right: 20px;
+  font-size: 2em;
+}
+
+.footer-nav-wrapper ul {
+  padding-bottom: 0;
+}
+
+.footer-nav-wrapper ul li a {
+  color: #2a3d68;
+}
+
+.footer-subscribe-wrapper .footer_newsletter-btn {
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: #2a3d68;
+  font-weight: 600;
+  height: 38px;
+  margin-bottom: 10px;
+  border: 1px solid #2a3d68;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  text-decoration: none;
+}
+
+.footer-middle {
+  padding: 30px;
+}
+
+.footer-middle .image-wrapper {
+  max-width: 120px;
+  margin-right: 1rem;
+  margin-left: auto;
 }
 
 .footer-copyright {
@@ -410,9 +444,19 @@ li {
   background-color: #dd1738;
 }
 
+.out-bar {
+  background-color: #f2eeed;
+  color: #2a3d68;
+  text-align: center;
+}
+
 .progress-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #f2eeed;
   height: 22px;
+  font-size: 12px;
 }
 
 .projects_pagination {

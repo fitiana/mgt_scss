@@ -56,6 +56,7 @@
 }
 
 .progress_bar {
+    
     font-size: 12px;
     text-align: center;
     height: 22px;
@@ -63,9 +64,17 @@
     background-color: $primary-color;
 }
 
+.out-bar {
+    background-color: $color-gris-1;
+    color: $heading-text-color;
+    text-align: center;
+}
+
 .progress-project {
+    display: flex;
     background-color: $color-gris-1;
     height: 22px;
+    font-size: 12px;
 }
 
 .projects_pagination {
