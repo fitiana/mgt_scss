@@ -89,6 +89,7 @@ li {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 0;
+  padding-left: 25px;
 }
 
 .navbar_wrap ul li {
@@ -155,9 +156,14 @@ li {
   background-color: #f2eeed;
 }
 
-.footer-module .image-wrapper {
+.footer-middle {
+  padding: 30px;
+}
+
+.footer-middle .image-wrapper {
   max-width: 120px;
   margin-right: 1rem;
+  margin-left: auto;
 }
 
 .footer-social {
@@ -168,12 +174,6 @@ li {
 
 .footer-social a {
   margin-right: 20px;
-}
-
-.single-module {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .footer-copyright {

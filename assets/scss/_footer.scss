@@ -6,10 +6,13 @@
     background-color: $color-gris-1;
 }
 
-.footer-module {
+.footer-middle {
+    padding: 30px;
+
     .image-wrapper {
         max-width: 120px;
         margin-right: 1rem;
+        margin-left: auto;
     }
 }
 
@@ -22,18 +25,16 @@
     }
 }
 
-.single-module {
-    display: flex;
-}
 
 .footer-copyright {
-    background-color:  #f2eeed;
+    background-color: #f2eeed;
     padding: 22px;
+
     p {
         font-size: 12px;
         color: $heading-text-color;
         text-align: center;
         margin-bottom: 0;
-        
+
     }
 }
