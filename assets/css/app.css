@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.75;
-  color: #ffffff;
+  color: #2a3d68;
   font-style: normal;
 }
 
@@ -152,7 +152,7 @@ li {
 /*  Footer
 /*----------------------------------------*/
 .footer_main {
-  background-color: #2a3d68;
+  background-color: #f2eeed;
 }
 
 .footer-module .image-wrapper {
@@ -222,6 +222,11 @@ li {
   font-family: "Fjalla One", sans-serif;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
   text-align: center;
+  color: #ffffff;
+}
+
+.banner-description {
+  color: #ffffff;
 }
 
 /*----------------------------------------*/
@@ -342,6 +347,11 @@ li {
 
 .project-item {
   display: block;
+  margin-bottom: 25px;
+}
+
+.headline-card {
+  height: 80px;
 }
 
 .project-name a {
@@ -350,6 +360,11 @@ li {
 
 .project-name a:hover {
   text-decoration: underline;
+}
+
+.project-statistics {
+  padding: 10px 0;
+  border-top: 2px solid #f2eeed;
 }
 
 .statistics-list {
@@ -380,9 +395,14 @@ li {
 .progress-value {
   font-size: 12px;
   text-align: center;
+  color: #ffffff;
 }
 
 .progress-project {
   background-color: #dd1738;
   height: 22px;
+}
+
+.projects_pagination {
+  padding: 20px 0;
 }
