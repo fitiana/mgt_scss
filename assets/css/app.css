@@ -159,6 +159,14 @@ li {
 /*----------------------------------------*/
 .footer_main {
   background-color: #f2eeed;
+  padding: 30px 0 10px 0;
+}
+
+.footer_main .footer-heading {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .footer-container {
@@ -205,6 +213,39 @@ li {
   text-decoration: none;
 }
 
+.footer-subscribe-wrapper .footer_newsletter-btn:hover {
+  text-decoration: underline;
+  background-color: #2a3d68;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.footer-subscribe-wrapper .input-field {
+  margin-bottom: 5px;
+}
+
+.footer-subscribe-wrapper .input-field .input-subscribe {
+  background-color: #fff;
+  border: 1px solid #564242;
+  color: #2a3d68;
+  padding: 0 4px;
+  width: 100%;
+}
+
+.footer-subscribe-wrapper .checkbox_subscribe {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer-subscribe-wrapper .checkbox_subscribe input {
+  margin: 6px 4px 0 0;
+}
+
 .footer-middle {
   padding: 30px;
 }
@@ -235,7 +276,7 @@ li {
 }
 
 .banner-main {
-  background-image: url(../img/ban.jpg);
+  background-image: url(../img/ban2.jpg);
   background-color: #2a3d68;
   background-repeat: no-repeat;
   background-size: cover;
