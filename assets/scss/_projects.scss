@@ -4,7 +4,7 @@
 .section-projects {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 20px;
+    padding-top: 45px;
     padding-bottom: 30px;
 
 }
@@ -14,9 +14,43 @@
     margin-bottom: 25px;
 }
 
+.project-box {
+    position: relative;
+    overflow: hidden;
+
+
+    &:hover {
+        .on-hover {
+            opacity: 1;
+        }
+    }
+
+    .on-hover {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 15px;
+        font-size: 12px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s linear;
+        transition: opacity 0.3s linear;
+    }
+}
+
+
+.on-hover {
+    
+    .headline {
+        margin-bottom: 15px;
+    }
+}
 .headline-card {
     height: 80px;
 }
+
 .project-name {
     a {
         color: $heading-text-color;
@@ -33,6 +67,7 @@
     padding: 10px 0;
     border-top: 2px solid $color-gris-1;
 }
+
 .statistics-list {
     display: flex;
     padding-left: 0;
@@ -56,7 +91,7 @@
 }
 
 .progress_bar {
-    
+
     font-size: 12px;
     text-align: center;
     height: 22px;
@@ -78,5 +113,5 @@
 }
 
 .projects_pagination {
-    padding:  20px 0;
+    padding: 20px 0;
 }
