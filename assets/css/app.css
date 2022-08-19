@@ -176,6 +176,10 @@ li {
   padding-right: 10px;
 }
 
+.footer-logo {
+  text-align: center;
+}
+
 .footer-logo img {
   width: 160px;
 }
@@ -184,10 +188,13 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-social a {
-  margin-right: 20px;
+  margin: 0 10px;
   font-size: 2em;
 }
 
@@ -253,7 +260,7 @@ li {
 .footer-middle .image-wrapper {
   max-width: 120px;
   margin-right: 1rem;
-  margin-left: auto;
+  margin: 0 auto 20px;
 }
 
 .footer-copyright {
@@ -502,4 +509,15 @@ li {
 
 .projects_pagination {
   padding: 20px 0;
+}
+
+/*----------------------------------------*/
+/*   Portfolio CSS
+/*----------------------------------------*/
+.fusion-column {
+  position: relative;
+}
+
+.fusion-wrapper {
+  background-color: #2a3d68;
 }

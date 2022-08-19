@@ -23,6 +23,7 @@
 }
 
 .footer-logo {
+    text-align: center;
 
     img {
         width: 160px;
@@ -32,9 +33,10 @@
 
 .footer-social {
     display: flex;
+    justify-content: center;
 
     a {
-        margin-right: 20px;
+        margin: 0 10px;
         font-size: 2em;
     }
 }
@@ -108,7 +110,8 @@
     .image-wrapper {
         max-width: 120px;
         margin-right: 1rem;
-        margin-left: auto;
+        margin: 0 auto 20px;
+        
     }
 }
 
