@@ -30,12 +30,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+
+    .nav-menus-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
 }
 
 
 .navbar_wrap {
     display: flex;
-    flex-grow: 1;
 
     & ul {
         display: flex;
@@ -71,6 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
 
     ul {
         display: flex;
@@ -96,4 +102,18 @@
         }
 
     }
+}
+
+
+.menu_toggle {
+    
+    justify-content: center;
+    align-items: center;
+
+    .mobilemenu-toggle {
+
+        font-size: 21px;
+        color: $white;
+    }
+
 }

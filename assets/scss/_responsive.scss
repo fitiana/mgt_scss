@@ -1,0 +1,59 @@
+//
+// responsive.scss
+//
+
+@media (min-width: 1200px) {
+    .container-100 {
+        max-width: 1140px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .show-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .nav-holder-s {
+        display: none;
+    }
+
+    .show-mobile {
+        display: block;
+    }
+
+    .menu_toggle.show-mobile {
+
+        display: flex;
+        position: absolute;
+        left: 25px;
+        top: 15px;
+    }
+
+    .site-header-logo {
+        margin: 0 auto;
+    }
+    .menu_nav {
+        position: relative;
+
+        .nav-menus-wrapper {
+            display: none;
+            position: absolute;
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .heading-itText {
+        display: inline-block;
+        font-size: 40px;
+    }
+}
