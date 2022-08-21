@@ -10,8 +10,12 @@
 
 
 @media (min-width: 1025px) {
-    .show-mobile {
-        display: none;
+    .menu_nav {
+
+        .nav-menus-wrapper {
+            display: flex;
+
+        }
     }
 }
 
@@ -28,6 +32,11 @@
         display: block;
     }
 
+    
+    .header-layout {
+        position: absolute;
+        
+    }
     .menu_toggle.show-mobile {
 
         display: flex;
@@ -39,12 +48,78 @@
     .site-header-logo {
         margin: 0 auto;
     }
+
     .menu_nav {
         position: relative;
 
         .nav-menus-wrapper {
             display: none;
             position: absolute;
+            background-color: $dark-background-default;
+            width: 100%;
+            top: 64px;
+            left: 0;
+            right: 0;
+        }
+    }
+
+
+
+    .navbar_wrap {
+        display: flex;
+
+
+        & ul {
+
+            flex-direction: column;
+            margin-bottom: 0;
+            padding: 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+
+            & li {
+                display: block;
+                position: relative;
+
+
+                & a {
+                 
+                    padding: 8px 15px;
+                    width: 100%;
+
+
+                    &:hover {
+                        background-color: $background-hover;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-auth {
+
+        ul {
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 10px;
+
+            li {
+
+                display: block;
+                text-align: center;
+
+                a {
+                    padding: 8px 15px;
+                     width: 100%;
+
+                    &:hover {
+                        background-color: $background-hover;
+                    }
+
+                }
+            }
+
         }
     }
 }

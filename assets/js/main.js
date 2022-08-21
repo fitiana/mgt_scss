@@ -29,11 +29,12 @@ jQuery(function($) {
   
     $('#banner-hero').parallax("center", 0.3);
     
-     $('.cs-munu_toggle').on('click', function () {
+     $('.mobilemenu-toggle').on('click', function () {
       $(this)
-        .toggleClass('cs-toggle_active')
-        .siblings('.cs-nav_list')
-        .slideToggle();
+        .toggleClass('cs-toggle_active');
+        $('.nav-menus-wrapper').toggleClass('nav_active');
+        $('.nav-menus-wrapper').fadeToggle( "slow", "linear" );;
+        
     });
 
     

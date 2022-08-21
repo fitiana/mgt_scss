@@ -49,7 +49,8 @@ li {
 }
 
 .menu_nav {
-  width: 98%;
+  width: 100%;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -75,9 +76,7 @@ li {
 }
 
 .menu_nav .nav-menus-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -115,9 +114,7 @@ li {
   font-size: 14px;
   font-weight: normal;
   padding: 25px 15px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: block;
   line-height: 1;
   position: relative;
   z-index: 1;
@@ -158,6 +155,8 @@ li {
   color: #ffffff;
   padding: 15px 8px;
   font-size: 14px;
+  line-height: 1;
+  display: block;
 }
 
 .nav-auth ul li a:hover {
@@ -175,6 +174,7 @@ li {
 
 .menu_toggle .mobilemenu-toggle {
   font-size: 21px;
+  padding: 0 5px;
   color: #ffffff;
 }
 
@@ -579,6 +579,19 @@ li {
   background-color: #2a3d68;
 }
 
+.two-col-list .puces-rouges {
+  list-style-type: none;
+}
+
+.two-col-list .puces-rouges li {
+  padding-left: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  background-image: url(../img/puces-rouges.png);
+  background-repeat: no-repeat;
+  background-position: 0 11px;
+}
+
 @media (min-width: 1200px) {
   .container-100 {
     max-width: 1140px;
@@ -586,8 +599,10 @@ li {
 }
 
 @media (min-width: 1025px) {
-  .show-mobile {
-    display: none;
+  .menu_nav .nav-menus-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -600,6 +615,9 @@ li {
   }
   .show-mobile {
     display: block;
+  }
+  .header-layout {
+    position: absolute;
   }
   .menu_toggle.show-mobile {
     display: -webkit-box;
@@ -618,6 +636,57 @@ li {
   .menu_nav .nav-menus-wrapper {
     display: none;
     position: absolute;
+    background-color: #2a3d68;
+    width: 100%;
+    top: 64px;
+    left: 0;
+    right: 0;
+  }
+  .navbar_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar_wrap ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar_wrap ul li {
+    display: block;
+    position: relative;
+  }
+  .navbar_wrap ul li a {
+    padding: 8px 15px;
+    width: 100%;
+  }
+  .navbar_wrap ul li a:hover {
+    background-color: #233256;
+  }
+  .nav-auth ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .nav-auth ul li {
+    display: block;
+    text-align: center;
+  }
+  .nav-auth ul li a {
+    padding: 8px 15px;
+    width: 100%;
+  }
+  .nav-auth ul li a:hover {
+    background-color: #233256;
   }
 }
 

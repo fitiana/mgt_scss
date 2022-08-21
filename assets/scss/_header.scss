@@ -14,7 +14,8 @@
 }
 
 .menu_nav {
-    width: 98%;
+    width: 100%;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -32,7 +33,7 @@
     justify-content: flex-start;
 
     .nav-menus-wrapper {
-        display: flex;
+        display: block;
         justify-content: space-between;
         flex-grow: 1;
     }
@@ -57,7 +58,7 @@
                 font-size: 14px;
                 font-weight: normal;
                 padding: 25px 15px;
-                display: inline-flex;
+                display: block;
                 line-height: 1;
                 position: relative;
                 z-index: 1;
@@ -93,6 +94,8 @@
                 color: $white;
                 padding: 15px 8px;
                 font-size: 14px;
+                 line-height: 1;
+                display: block;
 
                 &:hover {
                     background-color: $background-hover;
@@ -106,13 +109,14 @@
 
 
 .menu_toggle {
-    
+
     justify-content: center;
     align-items: center;
 
     .mobilemenu-toggle {
 
         font-size: 21px;
+        padding: 0 5px;
         color: $white;
     }
 

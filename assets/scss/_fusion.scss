@@ -13,4 +13,21 @@
     background-color: $heading-text-color;
 }
 
+.two-col-list {
+    
+    .puces-rouges {
+        list-style-type: none;
+        
+        li {
+            padding-left: 60px;
+            margin-bottom: 20px;
+            text-transform:  uppercase;
+            background-image:  url(../img/puces-rouges.png);
+            background-repeat: no-repeat;
+            background-position: 0 11px;
+        }
+    }
+}
+
+
 
