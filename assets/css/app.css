@@ -170,6 +170,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  display: none;
 }
 
 .menu_toggle .mobilemenu-toggle {
@@ -600,9 +601,9 @@ li {
 
 @media (min-width: 1025px) {
   .menu_nav .nav-menus-wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-box  !important;
+    display: -ms-flexbox  !important;
+    display: flex  !important;
   }
 }
 
