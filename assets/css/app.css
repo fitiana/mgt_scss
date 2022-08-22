@@ -44,7 +44,7 @@ li {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 9;
+  z-index: 14;
   background-color: #2a3d68;
 }
 
@@ -334,6 +334,11 @@ li {
   height: 100%;
 }
 
+.banner_caption {
+  max-width: 85%;
+  margin: 0 auto 25px;
+}
+
 .banner_heading {
   font-size: 45px;
   font-family: "Fjalla One", sans-serif;
@@ -490,6 +495,7 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 8;
   opacity: 0;
   -webkit-transition: opacity 0.3s linear;
   transition: opacity 0.3s linear;
@@ -497,6 +503,7 @@ li {
 
 .on-hover .headline {
   margin-bottom: 15px;
+  margin-top: 34px;
 }
 
 .headline-card {
@@ -509,6 +516,46 @@ li {
 
 .project-name a:hover {
   text-decoration: underline;
+}
+
+.ribbon-wrapper {
+  width: 145px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 6;
+}
+
+.ribbon-wrapper .ribbon_project {
+  font-size: 12px;
+  top: 40px;
+  right: -40px;
+  width: 200px;
+  background-color: #92d050;
+  height: auto;
+  color: #ffffff;
+  text-align: center;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.project-donation {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 0;
+  width: 41px;
+  height: 44px;
+  text-align: right;
+}
+
+.project-donation img {
+  width: 34px;
 }
 
 .project-statistics {
@@ -639,7 +686,7 @@ li {
     position: absolute;
     background-color: #2a3d68;
     width: 100%;
-    top: 64px;
+    top: 63px;
     left: 0;
     right: 0;
   }
