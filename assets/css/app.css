@@ -658,6 +658,9 @@ li {
   .hide-mobile {
     display: none;
   }
+  .section-center {
+    display: none;
+  }
   .nav-holder-s {
     display: none;
   }
@@ -735,6 +738,12 @@ li {
   }
   .nav-auth ul li a:hover {
     background-color: #233256;
+  }
+  .custom-section-left {
+    padding-right: 0;
+  }
+  .custom-section-right {
+    padding-left: 0;
   }
 }
 
