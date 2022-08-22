@@ -13,7 +13,7 @@
     .menu_nav {
 
         .nav-menus-wrapper {
-            display: flex  !important;
+            display: flex !important;
 
         }
     }
@@ -23,11 +23,13 @@
     .hide-mobile {
         display: none;
     }
-    
+
     .section-center {
         display: none;
     }
 
+    
+    
     .nav-holder-s {
         display: none;
     }
@@ -36,11 +38,12 @@
         display: block;
     }
 
-    
+
     .header-layout {
         position: absolute;
-        
+
     }
+
     .menu_toggle.show-mobile {
 
         display: flex;
@@ -88,7 +91,7 @@
 
 
                 & a {
-                 
+
                     padding: 8px 15px;
                     width: 100%;
 
@@ -115,7 +118,7 @@
 
                 a {
                     padding: 8px 15px;
-                     width: 100%;
+                    width: 100%;
 
                     &:hover {
                         background-color: $background-hover;
@@ -126,14 +129,23 @@
 
         }
     }
-    
-    .custom-section-left {
-        padding-right: 0;
+
+    .mgt-section {
+
+        .container-80 {
+            width: 100%;
+            max-width: 100%;
+        }
     }
-    
+
+
+    .custom-section-left,
     .custom-section-right {
-        padding-left: 0;
+        padding-left: 6%;
+        padding-right: 6%;
     }
+
+
 }
 
 
@@ -142,5 +154,9 @@
     .heading-itText {
         display: inline-block;
         font-size: 40px;
+    }
+    
+    .border-right-white {
+        border: 0;
     }
 }
