@@ -251,7 +251,7 @@ li {
 }
 
 .footer-subscribe-wrapper .footer_newsletter-btn:hover {
-  text-decoration: underline;
+  text-decoration: none;
   background-color: #2a3d68;
   color: #ffffff;
   border: 1px solid #ffffff;
@@ -623,8 +623,31 @@ li {
   color: #ffffff;
 }
 
+.fusion-column .block-content {
+  position: relative;
+  z-index: 6;
+}
+
 .fusion-wrapper {
+  padding: 45px 0 30px 0;
   background-color: #2a3d68;
+  background-image: url(../img/img-one.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+  position: relative;
+}
+
+.fusion-wrapper:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  margin: auto;
+  background: rgba(42, 61, 104, 0.65);
 }
 
 .two-col-list .puces-rouges {
@@ -634,10 +657,17 @@ li {
 .two-col-list .puces-rouges li {
   padding-left: 60px;
   margin-bottom: 20px;
-  text-transform: uppercase;
   background-image: url(../img/puces-rouges.png);
   background-repeat: no-repeat;
   background-position: 0 11px;
+}
+
+.two-col-list .btn-border {
+  color: #ffffff;
+}
+
+.two-col-list .btn-border:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 1200px) {

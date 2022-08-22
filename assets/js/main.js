@@ -11,7 +11,7 @@ jQuery(function($) {
     });
 
     // Smooth Scrolling
-    $('a.nav-link').on('click', function(e) {
+    $('.nav_link').on('click', function(e) {
         var $this = $(this);
         $('html, body')
         .stop()
