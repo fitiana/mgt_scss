@@ -413,7 +413,7 @@
                 <div class="fusion-wrapper">
                     <div class="container-fluid">
                         <div class="row align-items-center justify-contents-center">
-                            
+
                             <div class="col-md-8 offset-md-4">
                                 <div class="block-content">
                                     <div class="row">
@@ -431,7 +431,7 @@
                                             <div class="inner-content two-col-list">
                                                 <p>Ces formes de financement ont été pensées pour répondre aux attentes et aux besoins tant des créatifs que des investisseurs. MyGeekTalent permet de faire se rencontrer créateurs et investisseurs dans un milieu sécurisé.</p>
                                                 <ul class="puces-rouges">
-                                                    <li class="padding-bottom-20"><a class="btn-border" href="javascript:void(0)">Projets en récompenses</a></li>
+                                                    <li class="padding-bottom-20"><a href="#" class="btn-main bg-btn2 btn-border" data-bs-toggle="modal" data-bs-target="#modalform">Projets en récompenses</a></li>
                                                     <li class="padding-bottom-20"><a class="btn-border" href="javascript:void(0)">Projets en NFTs</a></li>
                                                     <li class="padding-bottom-20"><a class="btn-border" href="javascript:void(0)">Projets en royalties</a></li>
                                                     <li><a class="btn-border" href="javascript:void(0)">Projets en préventes</a></li>
@@ -446,6 +446,30 @@
                     </div>
 
                 </div>
+
+                <!--start Modal html -->
+                <div class="popup-modals">
+                    <div class="modal" id="modalform" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <div class="common-heading">
+                                        <h4 class="mt0 mb0">Popup Modal Form</h4>
+                                    </div>
+                                    <button type="button" class="closes" data-bs-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="modal-wrapper">
+                                        <h3>RECOMPENSES</h3>
+                                        <p>MyGeekTalent donne la possibilité à des créateurs de financer et de développer leur projet en proposant des récompenses aux contributeurs.</p>
+                                        <p>Le don avec ou sans récompense : Le don peut être désintéressé et purement philanthrope ou versé en contrepartie de services ou de prestations dont le contributeur pourra bénéficier à la fin de la campagne réussie. La conception, la fabrication et la logistique est assuré par notre partenaire afin de garantir aux contributeurs la bonne réception des goodies et le suivi des prestations de services proposés par les créateurs. Par la suite, la stratégie de promotion de votre projet rejoint notre stratégie globale d’accompagnement MyGeekTalent : </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end Modal html  -->
 
             </section>
             <section class="count-section d-none">
@@ -560,6 +584,7 @@
 
     <!-- js -->
     <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
