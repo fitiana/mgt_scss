@@ -16,21 +16,52 @@
     font-size: 35px;
     position: absolute;
     right: 20px;
-    top:  0;
+    top: 0;
     z-index: 3;
 }
 
-#modalrecompenses, #modalnft, #modalroyalties, #modalprevente {
-    .modal-dialog {
-        max-width: 80%;
-        width: 80%;
+.modal-header {
+    border: 0  !important;
+}
+
+
+.tp-contact-form {
+
+    .control-label {
+        display: block;
     }
 }
 
+#modalrecompenses .modal-dialog,
+#modalnft .modal-dialog,
+#modalroyalties .modal-dialog ,
+#modalprevente .modal-dialog {
+    max-width: 80%;
+    width: 80%;
+}
+
+
+
+#modalcontact .modal-dialog {
+    max-width: 80%;
+    width: 100%;
+}
+
 @media (min-width: 576px) {
-    #modalrecompenses, #modalnft, #modalroyalties, #modalprevente {
+
+    #modalrecompenses .modal-dialog,
+    #modalnft .modal-dialog,
+    #modalroyalties .modal-dialog,
+    #modalprevente .modal-dialog {
         .modal-dialog {
             max-width: 80%;
+            width: 80%;
+        }
+    }
+
+    #modalcontact {
+        .modal-dialog {
+            max-width: 1000px;
             width: 80%;
         }
     }

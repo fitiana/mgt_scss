@@ -226,6 +226,7 @@ li {
 .footer-social a {
   margin: 0 10px;
   font-size: 2em;
+  color: #2a3d68;
 }
 
 .footer-nav-wrapper ul {
@@ -673,6 +674,7 @@ li {
 
 .btn-outline {
   border: 2px solid #ffffff;
+  background-color: #2a3d68;
   color: #ffffff;
   display: inline-block;
   padding: 0px 24px;
@@ -710,14 +712,37 @@ li {
   z-index: 3;
 }
 
-#modalrecompenses .modal-dialog, #modalnft .modal-dialog, #modalroyalties .modal-dialog, #modalprevente .modal-dialog {
+.modal-header {
+  border: 0  !important;
+}
+
+.tp-contact-form .control-label {
+  display: block;
+}
+
+#modalrecompenses .modal-dialog,
+#modalnft .modal-dialog,
+#modalroyalties .modal-dialog,
+#modalprevente .modal-dialog {
   max-width: 80%;
   width: 80%;
 }
 
+#modalcontact .modal-dialog {
+  max-width: 80%;
+  width: 100%;
+}
+
 @media (min-width: 576px) {
-  #modalrecompenses .modal-dialog, #modalnft .modal-dialog, #modalroyalties .modal-dialog, #modalprevente .modal-dialog {
+  #modalrecompenses .modal-dialog .modal-dialog,
+  #modalnft .modal-dialog .modal-dialog,
+  #modalroyalties .modal-dialog .modal-dialog,
+  #modalprevente .modal-dialog .modal-dialog {
     max-width: 80%;
+    width: 80%;
+  }
+  #modalcontact .modal-dialog {
+    max-width: 1000px;
     width: 80%;
   }
 }
