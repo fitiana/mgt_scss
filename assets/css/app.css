@@ -652,6 +652,7 @@ li {
 
 .two-col-list .puces-rouges {
   list-style-type: none;
+  margin-bottom: 25px;
 }
 
 .two-col-list .puces-rouges li {
@@ -668,6 +669,57 @@ li {
 
 .two-col-list .btn-border:hover {
   text-decoration: underline;
+}
+
+.btn-outline {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 38px;
+  border-radius: 100px;
+}
+
+.btn-outline:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #2a3d68;
+  border-color: #ffffff;
+}
+
+.modal-wrapper {
+  background-color: #2a3d68;
+  padding: 20px 25px;
+}
+
+.modal-wrapper h3 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.modal-btn-close {
+  color: #2a3d68;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 35px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  z-index: 3;
+}
+
+#modalrecompenses .modal-dialog, #modalnft .modal-dialog, #modalroyalties .modal-dialog, #modalprevente .modal-dialog {
+  max-width: 80%;
+  width: 80%;
+}
+
+@media (min-width: 576px) {
+  #modalrecompenses .modal-dialog, #modalnft .modal-dialog, #modalroyalties .modal-dialog, #modalprevente .modal-dialog {
+    max-width: 80%;
+    width: 80%;
+  }
 }
 
 @media (min-width: 1200px) {

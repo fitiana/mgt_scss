@@ -1,0 +1,37 @@
+.modal-wrapper {
+    background-color: $heading-text-color;
+    padding: 20px 25px;
+
+    h3 {
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+.modal-btn-close {
+    color: $heading-text-color;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    font-size: 35px;
+    position: absolute;
+    right: 20px;
+    top:  0;
+    z-index: 3;
+}
+
+#modalrecompenses, #modalnft, #modalroyalties, #modalprevente {
+    .modal-dialog {
+        max-width: 80%;
+        width: 80%;
+    }
+}
+
+@media (min-width: 576px) {
+    #modalrecompenses, #modalnft, #modalroyalties, #modalprevente {
+        .modal-dialog {
+            max-width: 80%;
+            width: 80%;
+        }
+    }
+}

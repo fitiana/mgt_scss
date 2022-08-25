@@ -40,7 +40,7 @@
 
     .puces-rouges {
         list-style-type: none;
-
+        margin-bottom:  25px;
         li {
             padding-left: 60px;
             margin-bottom: 20px;
@@ -61,4 +61,22 @@
         }
     }
 
+}
+
+
+.btn-outline {
+  border: 2px solid $white;
+  color: $white;
+  display: inline-block;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 38px;
+  border-radius: 100px;
+    
+     &:hover {
+            text-decoration: none;
+            background-color: $white;
+            color: $heading-text-color;
+            border-color: $white;
+        }
 }
